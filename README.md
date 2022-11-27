@@ -6,3 +6,7 @@
 
 <h1>Tela Animada</h1>
 <img src="https://github.com/pedrogodri/Imagens/blob/main/HTML%20%26%20CSS/TelaAnimada.png">
+
+
+<h1>Tela Responsiva</h1>
+<img src="https://github.com/pedrogodri/Imagens/blob/main/HTML%20%26%20CSS/TelaResponsiva.png">
