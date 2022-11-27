@@ -1,1 +1,136 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --purple-color: #48409E;
+    --white-color: #FFFFFF;
+    --blackGray-color: #333333;
+}
+
+::selection {
+    background-color: var(--purple-color);
+    color: var(--white-color);
+}
+
+body {
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--purple-color);
+    padding: 40px;
+}
+
+.container {
+    max-width: 850px;
+    background: var(--white-color);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 30px;
+}
+
+.title {
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--blackGray-color);
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 25px;
+    background-color: var(--purple-color);
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+}
+
+.input-box input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    transition: all 0.3s ease;
+}
+
+.input-box input:focus,
+.input-box input:valid {
+    border-color: var(--purple-color);
+}
+
+.input-box input[type="submit"] {
+    background-color: var(--purple-color);
+    border: 0;
+    color: var(--white-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-box i {
+    position: absolute;
+    color: var(--purple-color);
+    font-size: 17px;
+}
+
+.forgot a {
+    color: var(--purple-color);
+    text-decoration: none;
+}
+
+.divider {
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.midias-sociais {
+    text-align: center;
+}
+
+.midias-sociais i {
+    margin: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.midias-sociais i:hover {
+    color: var(--purple-color);
+}
+
+.sigup-text a {
+    color: var(--purple-color);
+    text-decoration: none;
+}
+
+.login-img {
+    width: 50%;
+}
+
+@media (max-width:800px) {
+    .login-img {
+       display: none;  
+    }
+}
