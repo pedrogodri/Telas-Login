@@ -13,9 +13,9 @@
 
 
 <h1>Tela Login e Cadastro</h1>
-<h5>Tela Cadastr</h5>
+<h5>Tela Cadastro</h5>
 <img src="https://github.com/pedrogodri/Imagens/blob/main/HTML%20%26%20CSS/TelaLoginCadastro-Cadastro.png">
-<h5>Tela Logino</h5>
+<h5>Tela Login</h5>
 <img src="https://github.com/pedrogodri/Imagens/blob/main/HTML%20%26%20CSS/TelaLoginCadastro-Login.png">
 
 
